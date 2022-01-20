@@ -10,6 +10,7 @@ class Introscreen extends StatefulWidget {
 }
 
 class _IntroscreenState extends State<Introscreen> {
+  // ignore: non_constant_identifier_names
   void _Endwelcomepage(context) {
     Navigator.pop(context);
     Navigator.of(context).push(MaterialPageRoute(builder: (_) => Homepage()));
